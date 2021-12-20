@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- BALISES CARTE SOCIALES -->
+    <meta property="og:title" content="Le portfolio de John Doe">
+    <meta property="og:description" content="Bienvenue sur mon portfolio">
+    <meta property="og:url" content="https://JohnDoe.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="John Doe | Portfolio">
+    <meta property="og:image_alt" content="Le texte altérnatif de l'image.">
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="default.css">
+    <link rel=" icon" href="images/favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <title>John Doe | Portfolio</title>
+</head>
+<body>
+    <section id="bienvenue">
+        <header>
+            <div id="flex-header" class="container"> <!-- ON UTILISE FLEXBOX POUR ALIGNER -->
+                <!-- ICI MON PRENOM ET MON NOM -->
+                    <div id="logo"> 
+                        J-BAPTISTE SALM 
+                    </div>
+                <nav>
+                    <!-- ICI MON MENU -->
+                    <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="mailto:jbsalm2@gmail.com">Contactez-moi</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- ON UTILISE ENCORE FLEXBOX POUR ALIGNER -->
+        <div class="container">
+            <div id="flex-presentation">
+                <div class="gauche-presentation">
+                    <h1>Portfolio</h1>
+                    <span>Développeur web maitrisant parfaitemen les aspects de la création d'un site internet efficace, simple et intuitif. Bienvenue sur mon portfolio.</span>
+                </div><div class="droite-presentation">
+                    <!-- IMAGE -->
+                    <img src="images/illustration.png" alt="imagepréz">
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+        <!-- LA PARTIE "CREATIONS" -->
+            <h2>créations</h2>
+            <p class="text-presentation">
+                Voici toutes mes créations.
+            </p>
+
+            <!-- ON UTILISE UNE GRILLE POUR LES PROJETS -->
+            <div id="projet-grille">
+                
+                <a href="/projet/jumpstart.html">
+                    <div class="projet projet-a">
+                        <h3>Jump-Start</h3>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="projet projet-b">
+                        <h3>Rodéo Pump</h3>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="projet projet-c">
+                        <h3>Pac-Man</h3>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="projet projet-d">
+                        <h3>Mega Pop</h3>
+                    </div>
+                </a>
+               
+            </div>
+        </div>
+    </section>
+
+    <section>
+        
+            <!-- LA PARTIE "CONTACT" -->
+            <h2>Contact</h2>
+            <p class="contact">
+                Alors on travail ensemble?
+            </p>
+            <div id="contact">
+                <a class="bouton" href="mailto:jbsalm2@gmail.com">envoyer un Email.</a>
+                
+            </div>
+
+       
+    </section>
+
+    <footer>
+        <div class="container">
+            © John Doe
+        </div>
+    </footer>
+</body>
+    
+
+</html>
